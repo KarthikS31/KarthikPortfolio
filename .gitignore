@@ -1,15 +1,43 @@
+# Android Studio
+.idea/
+*.iws
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+*.ipr
+
+# IntelliJ/IDEA caches and config
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# macOS
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Gradle
+.gradle/
+build/
+*/build/
 local.properties
+
+# Kotlin
+*.kotlin_module
+.kotlin/
+
+# Log files
+*.log
+logs/
+
+# Auto-generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Misc
+/caches/
