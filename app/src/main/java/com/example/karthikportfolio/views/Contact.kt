@@ -39,13 +39,13 @@ fun Contact() {
             ContactRow(
                 icon = R.drawable.ic_contact,
                 contentDescription = "Phone",
-                text = "+91 6383735990"
+                text = "+91 012345678"
             )
 
             ContactRow(
                 icon = R.drawable.ic_email,
                 contentDescription = "Email",
-                text = "karthik31msd7@gmail.com"
+                text = "sample@gmail.com"
             )
 
             ContactRow(
